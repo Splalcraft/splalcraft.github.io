@@ -128,3 +128,46 @@ body {
             color: #999;
             font-size: 0.8em;
         }
+@media (hover: hover) and (pointer: fine) {
+    .gotop:hover, .gotop:hover .pagetop__arrow {
+        border-color: #3293e7;
+    }
+}
+@media (min-width: 800px) {
+   div.column { width: 240px; float: left; }
+}
+@media (max-width: 799px) {
+   div.column { width: 100%; }
+}
+/*追従するトップへ戻るボタン*/
+.gotop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.gotop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.gotop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+	filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+/*トップへ戻るボタンここまで*/
