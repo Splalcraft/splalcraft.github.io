@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #444;
+  font-size: 16px;
+  font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+  line-height: 1.42857;
+  color: var(--main-text);
+  background-color: var(--main-bg);
+  transition: .5s;
+
+        }
+
+/* ナビゲーション */
+.nav {
+    z-index: 100;
+    padding: 12px 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.nav-group {
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+}
+
+.nav-group>li {
+    margin: 0;
+    padding: 0 12px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+}
+
+.nav-group>li a {
+    display: block;
+    padding: 6px 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-group>li a:hover {
+    color: #999;
+}
+
+.nav-group>li a.active {
+    border-bottom: #333 solid 2px;
+    color: #999;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #000000;
+      color: #808080;
+    }
+    .header {
+      background-color: #000000;
+      color: #808080;
+    }
+    .footer {
+      background-color: #000000;
+      color: #808080;
+    }
+  }
+
+/* フッター */
+
+        .footer {
+            padding: 12px 0;
+            border-top: #ccd1d9 solid 1px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .footer-nav {
+            margin-bottom: 12px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-nav-group {
+            margin: 0;
+            padding: 0;
+            display: -moz-inline-stack;
+            display: inline-block;
+            vertical-align: middle;
+            *vertical-align: auto;
+            zoom: 1;
+            *display: inline;
+        }
+
+        .footer-nav-group>li {
+            margin: 0;
+            padding: 0 6px;
+            font-size: 0.9em;
+            display: -moz-inline-stack;
+            display: inline-block;
+            vertical-align: middle;
+            *vertical-align: auto;
+            zoom: 1;
+            *display: inline;
+        }
+
+        .footer-nav-group>li a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        .footer-nav-group>li a:hover {
+            color: #999;
+        }
+
+        .footer-copyright {
+            color: #999;
+            font-size: 0.8em;
+        }
