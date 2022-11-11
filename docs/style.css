@@ -138,16 +138,8 @@ img {
     }
 }
 
-@media screen and (min-width: 481px) {
-    body {
-	width: 240px; float: auto;
-    }
-}
-@media screen and (max-width: 480px) {
-    body {
-	width: 100%;
-    }
-}
+/*スマホ対応用レスポンシブ*/
+
 /*追従するトップへ戻るボタン*/
 .gotop {
     display: none;
