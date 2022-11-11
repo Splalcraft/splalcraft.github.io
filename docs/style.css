@@ -150,7 +150,7 @@ img {
 
 @media screen and (max-width: 479px) {
     body {
-        width: 240px; float: none;
+        width: 280px; float: none;
     }
 }
 /*追従するトップへ戻るボタン*/
