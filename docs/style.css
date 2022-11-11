@@ -141,19 +141,19 @@ img {
 /*スマホ対応用レスポンシブ*/
 @media screen and (min-width: 767px) {
     body {
-        width: 100%; float: left;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 767px) {
     body {
-        width: 480px; float: left;
+        width: 480px; float: none;
     }
 }
 
 @media screen and (max-width: 479px) {
     body {
-        width: 240px; float: left;
+        width: 240px; float: none;
     }
 }
 /*追従するトップへ戻るボタン*/
