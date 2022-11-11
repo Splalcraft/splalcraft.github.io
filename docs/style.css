@@ -142,21 +142,21 @@ img {
 @media screen and ( min-width:480px )
 {
     body {
-        width: 240px; float: left;
+        width: 380px; float: left;
     }
 }
 
 @media screen and ( max-width:479px )
 {
     body {
-        width: 100%;
+        width: 240px; float: left;
     }
 }
 
 @media screen and ( min-width:1280px ) and ( min-width:1920px )
 {
     body {
-        width: 1280px; float: left;
+        width: 100%;
     }
 }
 /*追従するトップへ戻るボタン*/
