@@ -14,13 +14,8 @@ body {
   margin-right: auto;
   text-align: center;
 }
-ul {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* ナビゲーション */
-.nav {
+ .nav {
     z-index: 100;
     padding: 12px 0;
     width: 100%;
