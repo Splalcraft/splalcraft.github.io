@@ -138,12 +138,12 @@ img {
     }
 }
 
-@media screen and (min-width: 481px)　{
+@media screen and (min-width: 481px) {
     body {
 	width: 240px; float: auto;
     }
 }
-@media screen and (max-width: 480px)　{
+@media screen and (max-width: 480px) {
     body {
 	width: 100%;
     }
