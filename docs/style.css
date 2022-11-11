@@ -139,7 +139,26 @@ img {
 }
 
 /*スマホ対応用レスポンシブ*/
+@media screen and ( min-width:480px )
+{
+    body {
+        width: 240px; float: left;
+    }
+}
 
+@media screen and ( max-width:479px )
+{
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and ( min-width:1280px ) and ( min-width:1920px )
+{
+    body {
+        width: 1280px; float: left;
+    }
+}
 /*追従するトップへ戻るボタン*/
 .gotop {
     display: none;
