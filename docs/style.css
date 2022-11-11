@@ -148,10 +148,10 @@ img {
     }
 }
 @media (min-width: 800px) {
-   div.column { width: 240px; float: left; }
+   body { width: 240px; float: left; }
 }
 @media (max-width: 480px) {
-   div.column { width: 100%; }
+   body { width: 100%; }
 }
 /*追従するトップへ戻るボタン*/
 .gotop {
