@@ -143,24 +143,15 @@ img {
     }
 }
 
-@media screen and (max-width: 499px) {
-  body {
-    width: 240px; float: auto;
-  }
+@media screen and (min-width: 481px)　{
+    body {
+	width: 240px; float: auto;
+    }
 }
-
-@media screen and (min-width: 500px) and (max-width: 999px) {
-  /*　画面サイズ 500pxから999pxまで適用　*/
-  body {
-    width: 480px; float: auto;
-  }
-}
-
-@media screen and (min-width:1000px) {
-  /*　画面サイズ 1000px以上から適用　*/
-  body {
-    width: 100%;
-  }
+@media screen and (max-width: 480px)　{
+    body {
+	width: 100%;
+    }
 }
 /*追従するトップへ戻るボタン*/
 .gotop {
