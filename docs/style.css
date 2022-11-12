@@ -5,7 +5,8 @@ html {
 body {
   background: #ffffff;
   color: #444;
-  font-size: 32px;
+  font-size: 32px; 
+  font-family: "ikamodoki";
   line-height: 1.42857;
   color: var(--main-text);
   background-color: var(--main-bg);
@@ -19,13 +20,6 @@ body {
   font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif, 'ikamodoki';
 }
 
-h1 {
-  font-family: "ikamodoki";
-}
-
-p {
-  font-family: "ikamodoki";
-}
 /* ナビゲーション */
  .nav {
     z-index: 100;
