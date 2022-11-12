@@ -6,7 +6,7 @@ body {
   background: #ffffff;
   color: #444;
   font-size: 16px; 
-  font-family: "ikamodoki";
+  font-family: "ikamodoki", "PaintBall";
   line-height: 1.42857;
   color: var(--main-text);
   background-color: var(--main-bg);
