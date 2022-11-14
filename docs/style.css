@@ -6,7 +6,7 @@ body {
   background: #ffffff;
   color: #444;
   font-size: 16px; 
-  font-family: font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif, 'ikamodoki';
+  font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif, "ikamodoki";
   line-height: 1.42857;
   color: var(--main-text);
   background-color: var(--main-bg);
