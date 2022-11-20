@@ -145,12 +145,12 @@ img {
 
 @media screen and (max-width: 959px) {
     body {
-	width: 820px; float: none;
+	width: 860px; float: none;
 	}
 }
 @media screen and (max-width: 480px) {
     body {
-	width: 360px; float: none;
+	width: 340px; float: none;
 	}
 }
 /*追従するトップへ戻るボタン*/
